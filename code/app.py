@@ -1,13 +1,6 @@
-def print_number():
-    print('hello')
+def test(a):
+    result = a % 7
+    print(result)
 
 
-print_number()
-
-
-
-def century(year):
-    print((year + 99) // 100)
-
-
-century(1705)
+test(15)
